@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1332688964515_1" label="2 Object Orientation" name="2 Object Orientation">
+<item elementID="=2-ObjectOrientation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=3-Assignments" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1332689948028_2" label="DeclarationAndAccessControl" name="DeclarationAndAccessControl">
+<item elementID="=1-DeclarationsAndAccessControl" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1332690067825_3" label="Operators" name="Operators">
+<item elementID="=4-Operators" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1332690124756_4" label="FlowControlAndAssertions" name="FlowControlAndAssertions">
+<item elementID="=5-FlowControlExceptionsAndAssertions" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=6-StringsIOFormattingAndParsing" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1332690187828_5" label="StringsIOFormattingAndParsing" name="StringsIOFormattingAndParsing">
+<item elementID="=6-StringsIOFormattingAndParsing" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1332690282019_6" label="GenericsAndCollection" name="GenericsAndCollection">
+<item elementID="=7-GenericsAndCollection" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1332624515942_0" label="Window Working Set" name="Aggregate for window 1332624515941"/>
+<mruList name="GenericsAndCollection"/>
+<mruList name="FlowControlAndAssertions"/>
+<mruList name="Operators"/>
+<mruList name="2 Object Orientation"/>
+</workingSetManager>

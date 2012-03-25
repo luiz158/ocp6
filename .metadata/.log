@@ -1,0 +1,46 @@
+!SESSION 2012-03-24 17:28:23.187 -----------------------------------------------
+eclipse.buildId=2.9.1.201203221000-RELEASE
+java.version=1.7.0_03
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.springsource.sts.ide
+
+!ENTRY org.eclipse.ui.workbench 4 2 2012-03-24 17:28:39.070
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at com.springsource.sts.maven.internal.legacyconversion.LegacyProjectChecker.earlyStartup(LegacyProjectChecker.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2470)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2012-03-24 17:28:39.080
+!MESSAGE Unhandled Exception
+
+!ENTRY com.springsource.sts.maven 4 0 2012-03-24 17:28:39.082
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.NullPointerException
+	at com.springsource.sts.maven.internal.legacyconversion.LegacyProjectChecker.earlyStartup(LegacyProjectChecker.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2470)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2012-03-24 17:33:28.085
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2012-03-24 17:33:29.448
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-03-24 17:33:29.448
+!MESSAGE Conflict for 'ecobertura.ui.launching.javaApplicationLaunchShortcut.ecobertura.core.coverageLaunchMode':
+HandlerActivation(commandId=ecobertura.ui.launching.javaApplicationLaunchShortcut.ecobertura.core.coverageLaunchMode,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@427aed5c,
+	expression=,sourcePriority=0)
+HandlerActivation(commandId=ecobertura.ui.launching.javaApplicationLaunchShortcut.ecobertura.core.coverageLaunchMode,
+	handler=org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension$LaunchCommandHandler@1475551d,
+	expression=,sourcePriority=0)
